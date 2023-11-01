@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <link rel="stylesheet" href="styleproject.css">
+    <title>Project</title>
+</head>
+<body>
+    <%- include('./partials/nav.ejs')%>
+        <div class="box1">
+            <div class="body-words">
+                <h2>Projects</h2>
+                
+                <p>I am Alabi Abdullahi </p>
+                <p>A passionate and dedicated Backend developer. I created aesthetically pleasing user-<br>
+                    ecentric designs that meets business goals. I create wonderful experience for users<br>
+                    and design solution to user challenges
+                </p>
+            <a style="text-decoration: none;" href="/selected"><p style="color:white;">view selected projects below ⬇ </p></a>
+            </div>
+            <div class="box1-img">
+                <img class="img1" src="undraw_hello_re_3evm 1.png">
+            </div>
+        </div>
+            
+            
+        <!-- SELECTED PROJECT -->
+        <div class="selected">
+            <p style="text-align:center; font-weight: bolder;">Selected Projects</p>
+        </div>
+        <!-- Helix Project -->
+        <div class="helix-box1">
+            <div class="helix-img1">
+                <img src="Helix Picture.png"  id="img">
+            </div>
+            <div class="helix-words1">
+                <h3>Helix</h3>
+                <p>A project management software designed to help<br>
+                    user track projects, tasks and schedules and manage<br>
+                    their project efficiently
+                </p>
+                <a style="text-decoration: none; font-weight: bold" href="https://www.behance.net/gallery/148593725/Pricing-Page-%28Project-management-software%29">View On Behance</a>
+            </div>
+        </div>  
+
+        <!-- AGRO FAM -->
+
+        <div class="helix-box2">
+            <div class="helix-words2">
+                <h3>Agro Fam</h3>
+                <p>A website for Agricultural-based brand that help make<br> 
+                    farming easier for farmers and can also help initiate aspiring <br>
+                    farmer
+                </p>
+                <a style="text-decoration: none; font-weight: bold" href="https://www.behance.net/gallery/148494073/landing-page-for-AgroFam">View On Behance</a>
+            </div>
+            <div class="helix-img2">
+                <img src="AgroFam Picture 1.png" id="img" alt="Agrofam">
+            </div>
+        </div>
+
+        <!-- Whatsapp(Re-design) -->
+
+        <div class="helix-box3">
+            <div class="helix-img3">
+                <img src="WhatsApp Light Picture 1.png"  id="img">
+            </div>
+            <div class="helix-words3">
+                <h3>Whatsapp (Re-design)</h3>
+                <p>Whatsapp for android re-design(the light theme) for<br>
+                        easier communication with friends,families and other<br>
+                        users.
+                </p>
+                <a style="text-decoration: none; font-weight: bold" href="https://www.behance.net/gallery/148412719/Whatsapp-for-Android-%28Light-mode%29">View On Behance</a>
+            </div> 
+        </div>
+
+        </div>
+        
+        <!-- Whatsapp (dark Re-design) -->
+        
+        <div class="helix-box4">
+            <div class="helix-words4">
+                <h3>Whatsapp (Re-design)</h3>
+                <p>Whatsapp for android re-design(the dark theme) for<br>
+                    easier communicationwith friends,families and other<br>
+                    users.
+                </p>
+                <a style="text-decoration: none; font-weight: bold" href="https://www.behance.net/gallery/148424273/Whatsapp-for-Android-%28Dark-mode%29">View On Behance</a>
+            </div>
+            <div class="helix-img4">
+                <img src="WhatsApp Dark Picture 1.png"  id="img" alt="Agrofam">
+            </div>
+        </div>
+
+        <!-- NFT Website -->
+        <div class="helix-box5">
+            <div class="helix-img5">
+                <img src="NFT Picture 1 (1).png"  id="img">
+            </div>
+            <div class="helix-words5">
+                <h3>NFT Website (Re-design)</h3>
+                 <p>A NFT website redesign with the story and information<br>
+                    about the team members including their goals and other<br>
+                     neccessary information 
+                </p>
+                <a style="text-decoration: none; font-weight: bold;" href="#">View On Behance</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script>
+
+        gsap.from('.navbar-cont',{
+                // y:50,
+                duration:2,
+                opacity:0
+             });
+
+             gsap.from('.img1',{
+            x:150,
+            opacity:0,
+            duration:2,
+        });
+    </script>
+</body>
+</html>
